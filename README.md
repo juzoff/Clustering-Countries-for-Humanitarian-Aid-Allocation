@@ -15,6 +15,7 @@ This project involved using unsupervised learning techniques, specifically clust
   - Created side-by-side histograms for multiple features to visualize their distributions.
   - Customized histograms by adjusting spines for a cleaner visual presentation.
 
+ --- 
 ### 2. Standardization and Clustering Analysis
 - Applying Standardization
   -	Utilized StandardScaler to standardize the numeric columns, ensuring that each feature has a mean of 0 and a standard deviation of 1.
@@ -32,6 +33,7 @@ This project involved using unsupervised learning techniques, specifically clust
 - Creating Cluster DataFrame
   -	Created a new DataFrame (country_cluster) containing the country names and their corresponding cluster labels for verification
  
+ --- 
 ### 3. Conducting Principal Component Analysis (PCA)
 - Applying PCA
   -	Initialized the PCA model and fitted it to the standardized numeric data to reduce dimensionality.
@@ -47,6 +49,7 @@ This project involved using unsupervised learning techniques, specifically clust
   -	Retrieved the weights (loadings) for each feature across the first four principal components, providing insights into how each feature contributes to the components.
   -	Displayed the PCA loadings to summarize the contribution of the original features to the transformed principal components.
 
+ --- 
 ### 4. Clustering and Principal Component Analysis (PCA) Visualization
 - Visualization of Mean Values
   -	Created bar charts to visualize the mean values of specific features (exports, health, imports, income, inflation, life_expec, total_fer, and gdpp) across the identified clusters.
@@ -54,6 +57,7 @@ This project involved using unsupervised learning techniques, specifically clust
 - Output of Mean Values
   -	Printed mean values of the specified features and mean PCA1 values for each cluster for detailed analysis and interpretation.
 
+ --- 
 ### 5. Clustering and Principal Component Analysis (PCA) Visualization
 - Visualization of Key Relationships
   -	Created scatter plots to visualize relationships between key socioeconomic indicators and their variations by cluster.
@@ -64,6 +68,7 @@ This project involved using unsupervised learning techniques, specifically clust
   -	Inflation vs GDP: Examined the relationship between inflation percentages and GDP per capita, colored by cluster membership.
   -	Health Expenditure vs Life Expectancy: Provided insights into how health expenditure (as a percentage of GDP) relates to life expectancy across different clusters.
 
+ --- 
 ### 6. Conclusion - Data Filtering and Clustering Analysis of the Chosen Cluster
 - Filtering and Displaying the Chosen Cluster
   -	Filtered the dataset to isolate and display only the countries that belong to Cluster 2 for focused analysis.
