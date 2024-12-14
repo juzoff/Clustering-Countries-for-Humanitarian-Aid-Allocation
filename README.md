@@ -74,3 +74,4 @@ This project involved using unsupervised learning techniques, specifically clust
   -	Filtered the dataset to isolate and display only the countries that belong to Cluster 2 for focused analysis.
   -	Used the display() function to present the filtered data in a clear format for review.
 
+## Outcome
