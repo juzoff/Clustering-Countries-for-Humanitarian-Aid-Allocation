@@ -125,9 +125,21 @@ The scatter plot below shows the relationship between income and life expectancy
 
 
 --- 
-### 6. Conclusion - Data Filtering and Clustering Analysis of the Chosen Cluster
+### 6. Conclusion - Data Filtering and Clustering Analysis of the Chosen Cluster (Cluster 2 - underdeveloped countries with low economic and health indicators)
+
 - Filtering and Displaying the Chosen Cluster
-  -	Filtered the dataset to isolate and display only the countries that belong to Cluster 2 for focused analysis.
+  -	Filtered the dataset to isolate and display only the countries that belong to Cluster 2 (underdeveloped countries) for focused analysis.
   -	Used the display() function to present the filtered data in a clear format for review.
 
+![final](https://github.com/user-attachments/assets/72d80c23-b79b-40c8-a14c-e119f3460902)
+![final2](https://github.com/user-attachments/assets/bc73138e-20d4-484c-b8c0-1f90ed640ec5)
+
 ## Outcome
+
+Identifying Countries in Direst Need:
+- Cluster 2 represents underdeveloped countries. These countries exhibit low socio-economic and health indicators, making them the most vulnerable and in urgent need of support.
+- By focusing on Cluster 2's countries, HELP International can focus its resources on regions where the impact of aid will be the greatest.
+
+Strategic Allocation of Resources:
+- With a limited budget of $10 million, resources can be distributed effectively by prioritizing countries in Cluster 2, ensuring that aid directly targets the areas with the most significant gaps in basic amenities, healthcare, and poverty relief.
+
