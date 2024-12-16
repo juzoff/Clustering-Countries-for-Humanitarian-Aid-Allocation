@@ -97,13 +97,34 @@ This project involved using unsupervised learning techniques, specifically clust
 - Visualization of Key Relationships
   -	Created scatter plots to visualize relationships between key socioeconomic indicators and their variations by cluster.
 - Scatter Plot Analyses using Seaborn
-  -	GDP vs Life Expectancy: Illustrated the relationship between GDP per capita and life expectancy, highlighting clusters for comparative analysis.
-  -	Exports vs Fertility Rate: Analyzed the interaction between exports (as a percentage of GDP) and total fertility rate, using cluster differentiation.
-  -	Income vs Child Mortality: Explored the correlation between income per capita and child mortality rates, categorized by cluster.
-  -	Inflation vs GDP: Examined the relationship between inflation percentages and GDP per capita, colored by cluster membership.
-  -	Health Expenditure vs Life Expectancy: Provided insights into how health expenditure (as a percentage of GDP) relates to life expectancy across different clusters.
+  -	Income vs. Life Expectancy: 
+The scatter plot below shows the relationship between income and life expectancy, grouped by development level. Highly developed countries (Cluster 3) are positioned in the top-right quadrant, reflecting high income and life expectancy. Underdeveloped countries (Cluster 2) are located in the bottom-left quadrant, indicating low income and shorter life expectancy. Moderately developed countries (Cluster 1) are placed in the middle, exhibiting characteristics between the two extremes. This visualization highlights how income levels are closely linked with life expectancy, with more affluent countries generally enjoying longer lifespans.
 
- --- 
+ ![incomele](https://github.com/user-attachments/assets/1bac958d-5bc1-41b0-8b81-453bbbd3b032)
+
+  
+  -	Exports vs. Imports: The scatter plot below illustrates the relationship between imports and exports, grouped by development level. Highly developed countries (Cluster 3) show higher exports (mean 0.6451) and imports (mean 0.1906), reflecting robust international trade and export-driven economies. Underdeveloped countries (Cluster 2) are clustered at lower levels of both exports (mean -0.4375) and imports (mean -0.1892), indicating limited trade activity. Moderately developed countries (Cluster 1) exhibit near-neutral averages for exports (mean -0.0317) and imports (mean 0.0242), suggesting balanced but less dynamic trade activity compared to highly developed nations.
+
+![impexp](https://github.com/user-attachments/assets/05d51469-599c-4663-918d-57279f115ed5)
+
+
+  -	GDP Per Capita (gdpp) vs. Inflation: The scatter plot below examines the relationship between GDP per capita (gdpp) and inflation across development clusters. Highly developed countries (Cluster 3) show high GDP per capita (mean 1.6160) and low inflation (mean -0.4849), indicative of stable and prosperous economies. Underdeveloped countries (Cluster 2) have lower GDP per capita (mean -0.6042) and higher inflation (mean 0.4021), reflecting economic instability and challenges. Moderately developed countries (Cluster 1) fall between these extremes, with moderate GDP per capita (mean -0.3545) and near-neutral inflation (mean -0.0172).
+
+![gdp](https://github.com/user-attachments/assets/6ea0e025-c571-47e6-a598-5519ecd45c51)
+
+
+  -	Total Fertility Rate (total_fer) vs. Life Expectancy: The scatter plot illustrates the relationship between total fertility rate (total_fer) and life expectancy (life_expec) by development cluster. Highly developed countries (Cluster 3) show low fertility rates (mean -0.7919) and high life expectancy (mean 1.0796), reflecting a focus on healthcare and quality of life. Underdeveloped countries (Cluster 2) have higher fertility rates (mean 1.3649) and lower life expectancy (mean -1.2822), which can be attributed to higher child mortality and limited healthcare resources. Moderately developed countries (Cluster 1) exhibit moderate fertility rates (mean -0.4243) and slightly higher life expectancy (mean 0.2547), reflecting ongoing improvements in health and living conditions.
+
+![neww](https://github.com/user-attachments/assets/716ddfd5-1f1e-4666-95b3-a4b30b61f5af)
+
+
+  -	Health vs. Income: The scatter plot illustrates the relationship between income and health across development clusters. Highly developed countries (Cluster 3) exhibit a strong positive correlation with high income (mean 1.4842) and better health outcomes (mean 0.7274), reflecting better healthcare infrastructure and higher standards of living. Underdeveloped countries (Cluster 2) demonstrate lower income levels (mean -0.6869) and moderate health outcomes (mean -0.1560), indicating that economic challenges hinder improvements in health. Moderately developed countries (Cluster 1) show a moderate positive relationship between income (mean -0.2518) and health (mean -0.2245), suggesting that while income levels are improving, there are still significant health challenges to overcome.
+
+
+![in](https://github.com/user-attachments/assets/7cae5732-8b1c-4ac4-b72f-ccc156cbe452)
+
+
+--- 
 ### 6. Conclusion - Data Filtering and Clustering Analysis of the Chosen Cluster
 - Filtering and Displaying the Chosen Cluster
   -	Filtered the dataset to isolate and display only the countries that belong to Cluster 2 for focused analysis.
