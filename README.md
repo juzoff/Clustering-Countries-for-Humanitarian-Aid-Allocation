@@ -134,12 +134,35 @@ The scatter plot below shows the relationship between income and life expectancy
 ![final](https://github.com/user-attachments/assets/72d80c23-b79b-40c8-a14c-e119f3460902)
 ![final2](https://github.com/user-attachments/assets/bc73138e-20d4-484c-b8c0-1f90ed640ec5)
 
+---
+
 ## Outcome
 
+![download (1)](https://github.com/user-attachments/assets/abbbed1a-9ebe-473c-a1af-ad00a1b68f38)
+
+
 Identifying Countries in Direst Need:
-- Cluster 2 represents underdeveloped countries. These countries exhibit low socio-economic and health indicators, making them the most vulnerable and in urgent need of support.
-- By focusing on Cluster 2's countries, HELP International can focus its resources on regions where the impact of aid will be the greatest.
+- Cluster 2 (Red dots) represents underdeveloped countries. These countries exhibit low socio-economic and health indicators, making them the most vulnerable and in urgent need of support.
+- By identifying these countries, HELP International can focus its resources on regions where the impact of aid will be the greatest.
 
 Strategic Allocation of Resources:
 - With a limited budget of $10 million, resources can be distributed effectively by prioritizing countries in Cluster 2, ensuring that aid directly targets the areas with the most significant gaps in basic amenities, healthcare, and poverty relief.
 
+​Clustering Justification with Data:
+​- Cluster 2’s tight grouping on the left of the chart (PC1 = -3 to 0) demonstrates consistently poor socio-economic and health indicators, with low PC1 and PC2 values.
+- These countries are likely struggling with severe poverty, limited access to healthcare, and poor living conditions, aligning perfectly with HELP International’s mission.
+
+​Explanation of PC1 and PC2:
+- ​PC1 (X-Axis):
+  - Captures the most variance in the data.
+  - Higher values represent wealthier, more developed countries (e.g., income, GDP, life expectancy).
+  - Lower values represent poorer, underdeveloped countries (e.g., high child mortality, low income).
+- PC2 (Y-Axis):
+  - Captures the second most variance, orthogonal to PC1.
+  - Higher values indicate stronger trade (exports/imports) and better life expectancy.
+  - Lower values suggest poorer health outcomes and limited economic integration.
+
+​Clusters:
+- Cluster 2 (Red): Low PC1 and PC2 values, underdeveloped countries.
+- Cluster 3 (Green): High PC1, moderate-high PC2, highly developed countries.
+- Cluster 1 (Yellow): Moderately developed countries, variability in both components.
