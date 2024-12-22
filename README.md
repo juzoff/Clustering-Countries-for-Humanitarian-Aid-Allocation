@@ -136,7 +136,7 @@ The scatter plot below shows the relationship between income and life expectancy
 
 ---
 
-## Outcome
+### 7. Outcome
 
 ![download (1)](https://github.com/user-attachments/assets/abbbed1a-9ebe-473c-a1af-ad00a1b68f38)
 
@@ -166,3 +166,18 @@ Strategic Allocation of Resources:
 - Cluster 2 (Red): Low PC1 and PC2 values, underdeveloped countries.
 - Cluster 3 (Green): High PC1, moderate-high PC2, highly developed countries.
 - Cluster 1 (Yellow): Moderately developed countries, variability in both components.
+
+---
+
+### 8. Dashboard Insights for Humanitarian Aid Allocation: Analyzing Development Across Clusters and Highlighting Underdeveloped Countries
+
+- After accomplishing the clustering analysis and identifying underdeveloped countries (Cluster 2) as the most vulnerable, I recognized the importance of creating visualizations to effectively communicate these findings. To achieve this, I developed two dashboards:
+  - Comprehensive Cluster Dashboard: This dashboard visualizes the socio-economic and health disparities across all three clusters, providing a holistic view of global development patterns.
+  - Focused Underdeveloped Countries Dashboard: This dashboard highlights Cluster 2 (Underdeveloped Countries), presenting key metrics such as fertility rates, health expenditures, and inflation. It provides actionable insights to prioritize aid to regions where HELP International's resources can have the greatest impact. Additionally, it enables a detailed analysis to determine which countries within this cluster should receive aid first, ensuring the most effective allocation of resources.
+- By combining analytical rigor with impactful visualizations, I demonstrated how data-driven insights, when presented effectively, can guide strategic decision-making and amplify the impact of humanitarian aid.
+
+### Comprehensive Cluster Dashboard:
+![main](https://github.com/user-attachments/assets/92716aaf-9931-4ed9-a7f1-637a7b2381e5)
+
+### Focused Underdeveloped Countries Dashboard:
+![underdeveloped](https://github.com/user-attachments/assets/9593ae34-b580-4d08-b740-0bfb5e8ccec3)
