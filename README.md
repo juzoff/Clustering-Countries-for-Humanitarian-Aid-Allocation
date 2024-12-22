@@ -1,4 +1,4 @@
-# Clustering-Countries-for-Strategic-Aid-Allocation
+# Clustering Countries for Humanitarian Aid Allocation
 This project involved using unsupervised learning techniques, specifically clustering, to categorize countries based on socio-economic and health factors that influence their overall development. The goal was to help HELP International, an NGO focused on humanitarian aid, strategically allocate $10 million in funding by identifying countries most in need of support. As a data scientist, I was responsible for analyzing the data to suggest which countries should receive priority attention from the organization.
 
 ## Components:
